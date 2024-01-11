@@ -39,8 +39,8 @@ proptest = { workspace = true, optional = true }
 
 [dev-dependencies]
 criterion.workspace = true
-ethabi = "18"
-rand = "0.8"
+ethabi = "18.0.0"
+rand = "0.8.5"
 serde_json = { workspace = true }
 
 [features]
